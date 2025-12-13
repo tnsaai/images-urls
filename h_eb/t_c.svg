@@ -1,0 +1,219 @@
+<svg width="1200" height="620" viewBox="0 0 1200 620"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1200" height="620" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="600" y="45"
+        text-anchor="middle"
+        font-size="28"
+        fill="#0f172a"
+        font-family="Arial, Helvetica, sans-serif">
+    HullucinateEB – Task Categories
+  </text>
+
+  <text x="600" y="75"
+        text-anchor="middle"
+        font-size="14"
+        fill="#475569"
+        font-family="Arial, Helvetica, sans-serif">
+    Structured stress tests designed to expose epistemic hallucinations
+  </text>
+
+  <!-- Category 1 -->
+  <rect x="80" y="120" rx="16" ry="16"
+        width="300" height="120"
+        fill="#ecfeff"
+        stroke="#0284c7"
+        stroke-width="2"/>
+
+  <text x="230" y="155"
+        text-anchor="middle"
+        font-size="18"
+        fill="#075985"
+        font-family="Arial, Helvetica, sans-serif">
+    Missing Information
+  </text>
+
+  <text x="230" y="180"
+        text-anchor="middle"
+        font-size="13"
+        fill="#0369a1"
+        font-family="Arial, Helvetica, sans-serif">
+    Key facts absent or underspecified
+  </text>
+
+  <text x="230" y="205"
+        text-anchor="middle"
+        font-size="12"
+        fill="#0369a1"
+        font-family="Arial, Helvetica, sans-serif">
+    Expected: Ask or refuse
+  </text>
+
+  <!-- Category 2 -->
+  <rect x="450" y="120" rx="16" ry="16"
+        width="300" height="120"
+        fill="#fff7ed"
+        stroke="#ea580c"
+        stroke-width="2"/>
+
+  <text x="600" y="155"
+        text-anchor="middle"
+        font-size="18"
+        fill="#9a3412"
+        font-family="Arial, Helvetica, sans-serif">
+    False Premise
+  </text>
+
+  <text x="600" y="180"
+        text-anchor="middle"
+        font-size="13"
+        fill="#c2410c"
+        font-family="Arial, Helvetica, sans-serif">
+    Prompt contains incorrect assumptions
+  </text>
+
+  <text x="600" y="205"
+        text-anchor="middle"
+        font-size="12"
+        fill="#c2410c"
+        font-family="Arial, Helvetica, sans-serif">
+    Expected: Refute
+  </text>
+
+  <!-- Category 3 -->
+  <rect x="820" y="120" rx="16" ry="16"
+        width="300" height="120"
+        fill="#f0fdf4"
+        stroke="#16a34a"
+        stroke-width="2"/>
+
+  <text x="970" y="155"
+        text-anchor="middle"
+        font-size="18"
+        fill="#166534"
+        font-family="Arial, Helvetica, sans-serif">
+    Unanswerable
+  </text>
+
+  <text x="970" y="180"
+        text-anchor="middle"
+        font-size="13"
+        fill="#15803d"
+        font-family="Arial, Helvetica, sans-serif">
+    Information does not exist
+  </text>
+
+  <text x="970" y="205"
+        text-anchor="middle"
+        font-size="12"
+        fill="#15803d"
+        font-family="Arial, Helvetica, sans-serif">
+    Expected: Explicit refusal
+  </text>
+
+  <!-- Category 4 -->
+  <rect x="80" y="300" rx="16" ry="16"
+        width="300" height="120"
+        fill="#f5f3ff"
+        stroke="#7c3aed"
+        stroke-width="2"/>
+
+  <text x="230" y="335"
+        text-anchor="middle"
+        font-size="18"
+        fill="#5b21b6"
+        font-family="Arial, Helvetica, sans-serif">
+    Ambiguity
+  </text>
+
+  <text x="230" y="360"
+        text-anchor="middle"
+        font-size="13"
+        fill="#6d28d9"
+        font-family="Arial, Helvetica, sans-serif">
+    Multiple plausible interpretations
+  </text>
+
+  <text x="230" y="385"
+        text-anchor="middle"
+        font-size="12"
+        fill="#6d28d9"
+        font-family="Arial, Helvetica, sans-serif">
+    Expected: Clarify assumptions
+  </text>
+
+  <!-- Category 5 -->
+  <rect x="450" y="300" rx="16" ry="16"
+        width="300" height="120"
+        fill="#fef2f2"
+        stroke="#dc2626"
+        stroke-width="2"/>
+
+  <text x="600" y="335"
+        text-anchor="middle"
+        font-size="18"
+        fill="#991b1b"
+        font-family="Arial, Helvetica, sans-serif">
+    Adversarial Trap
+  </text>
+
+  <text x="600" y="360"
+        text-anchor="middle"
+        font-size="13"
+        fill="#b91c1c"
+        font-family="Arial, Helvetica, sans-serif">
+    Prompt designed to bait fabrication
+  </text>
+
+  <text x="600" y="385"
+        text-anchor="middle"
+        font-size="12"
+        fill="#b91c1c"
+        font-family="Arial, Helvetica, sans-serif">
+    Expected: Resist hallucination
+  </text>
+
+  <!-- Category 6 -->
+  <rect x="820" y="300" rx="16" ry="16"
+        width="300" height="120"
+        fill="#f8fafc"
+        stroke="#0f172a"
+        stroke-width="2"/>
+
+  <text x="970" y="335"
+        text-anchor="middle"
+        font-size="18"
+        fill="#0f172a"
+        font-family="Arial, Helvetica, sans-serif">
+    Known-Answer Control
+  </text>
+
+  <text x="970" y="360"
+        text-anchor="middle"
+        font-size="13"
+        fill="#334155"
+        font-family="Arial, Helvetica, sans-serif">
+    Ground-truth answer exists
+  </text>
+
+  <text x="970" y="385"
+        text-anchor="middle"
+        font-size="12"
+        fill="#334155"
+        font-family="Arial, Helvetica, sans-serif">
+    Expected: Correct answer
+  </text>
+
+  <!-- Footer -->
+  <text x="600" y="565"
+        text-anchor="middle"
+        font-size="14"
+        fill="#334155"
+        font-family="Arial, Helvetica, sans-serif">
+    A model fails HullucinateEB when it answers confidently outside the expected behavior
+  </text>
+
+</svg>
