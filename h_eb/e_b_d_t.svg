@@ -1,0 +1,60 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1200" height="600" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="600" y="50"
+        text-anchor="middle"
+        font-size="28"
+        fill="#0f172a"
+        font-family="Arial, Helvetica, sans-serif">
+    Expected Behaviors Decision Tree
+  </text>
+
+  <!-- Root -->
+  <rect x="470" y="100" rx="18" ry="18" width="260" height="60"
+        fill="#f8fafc" stroke="#0f172a" stroke-width="2"/>
+  <text x="600" y="135" text-anchor="middle" font-size="16" fill="#0f172a" font-family="Arial, Helvetica, sans-serif">
+    Truth Mode
+  </text>
+
+  <!-- Known-True -->
+  <rect x="100" y="220" rx="14" ry="14" width="220" height="60"
+        fill="#ecfeff" stroke="#0284c7" stroke-width="2"/>
+  <text x="210" y="255" text-anchor="middle" font-size="14" fill="#075985">Known-True → Answer</text>
+
+  <!-- Known-False -->
+  <rect x="460" y="220" rx="14" ry="14" width="260" height="60"
+        fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="590" y="255" text-anchor="middle" font-size="14" fill="#991b1b">Known-False → Refute</text>
+
+  <!-- Unverifiable -->
+  <rect x="810" y="220" rx="14" ry="14" width="260" height="60"
+        fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="940" y="255" text-anchor="middle" font-size="14" fill="#166534">Unverifiable → Refuse</text>
+
+  <!-- Non-Existent -->
+  <rect x="460" y="320" rx="14" ry="14" width="260" height="60"
+        fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+  <text x="590" y="355" text-anchor="middle" font-size="14" fill="#9a3412">Non-Existent → Refuse</text>
+
+  <!-- Retract Node -->
+  <rect x="460" y="420" rx="14" ry="14" width="260" height="60"
+        fill="#f5f3ff" stroke="#7c3aed" stroke-width="2"/>
+  <text x="590" y="455" text-anchor="middle" font-size="14" fill="#5b21b6">Retract → Correct Previous</text>
+
+  <!-- Lines -->
+  <line x1="600" y1="160" x2="210" y2="220" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="600" y1="160" x2="590" y2="220" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="600" y1="160" x2="940" y2="220" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="590" y1="280" x2="590" y2="320" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="590" y1="380" x2="590" y2="420" stroke="#94a3b8" stroke-width="2"/>
+
+  <!-- Footer -->
+  <text x="600" y="580" text-anchor="middle" font-size="14" fill="#334155">
+    HullucinateEB enforces epistemically correct actions for all truth modes
+  </text>
+
+</svg>
