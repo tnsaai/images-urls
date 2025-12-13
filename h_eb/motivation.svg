@@ -2,13 +2,13 @@
      xmlns="http://www.w3.org/2000/svg">
 
   <!-- Background -->
-  <rect x="0" y="0" width="1200" height="500" fill="#0f172a"/>
+  <rect x="0" y="0" width="1200" height="500" fill="#ffffff"/>
 
   <!-- Title -->
   <text x="600" y="50"
         text-anchor="middle"
         font-size="28"
-        fill="#e5e7eb"
+        fill="#0f172a"
         font-family="Arial, Helvetica, sans-serif">
     Motivation: Fluency ≠ Truth
   </text>
@@ -16,52 +16,52 @@
   <!-- Left Panel: Confident Hallucination -->
   <rect x="80" y="100" rx="16" ry="16"
         width="420" height="300"
-        fill="#1e293b"
-        stroke="#ef4444"
+        fill="#f8fafc"
+        stroke="#dc2626"
         stroke-width="2"/>
 
   <text x="290" y="135"
         text-anchor="middle"
         font-size="18"
-        fill="#fca5a5"
+        fill="#b91c1c"
         font-family="Arial, Helvetica, sans-serif">
     Confident but Wrong
   </text>
 
   <text x="120" y="180"
         font-size="14"
-        fill="#e5e7eb"
+        fill="#0f172a"
         font-family="Arial, Helvetica, sans-serif">
     “The paper introduces a recursive
   </text>
   <text x="120" y="200"
         font-size="14"
-        fill="#e5e7eb"
+        fill="#0f172a"
         font-family="Arial, Helvetica, sans-serif">
     attention-based quantum memory
   </text>
   <text x="120" y="220"
         font-size="14"
-        fill="#e5e7eb"
+        fill="#0f172a"
         font-family="Arial, Helvetica, sans-serif">
     compression technique and reports
   </text>
   <text x="120" y="240"
         font-size="14"
-        fill="#e5e7eb"
+        fill="#0f172a"
         font-family="Arial, Helvetica, sans-serif">
     a 27% efficiency improvement…”
   </text>
 
   <text x="120" y="290"
         font-size="13"
-        fill="#f87171"
+        fill="#dc2626"
         font-family="Arial, Helvetica, sans-serif">
     ✖ Fabricated entity
   </text>
   <text x="120" y="310"
         font-size="13"
-        fill="#f87171"
+        fill="#dc2626"
         font-family="Arial, Helvetica, sans-serif">
     ✖ High confidence
   </text>
@@ -69,66 +69,66 @@
   <!-- Right Panel: Safe Refusal -->
   <rect x="700" y="100" rx="16" ry="16"
         width="420" height="300"
-        fill="#1e293b"
-        stroke="#22c55e"
+        fill="#f8fafc"
+        stroke="#16a34a"
         stroke-width="2"/>
 
   <text x="910" y="135"
         text-anchor="middle"
         font-size="18"
-        fill="#86efac"
+        fill="#166534"
         font-family="Arial, Helvetica, sans-serif">
     Cautious and Correct
   </text>
 
   <text x="740" y="190"
         font-size="14"
-        fill="#e5e7eb"
+        fill="#0f172a"
         font-family="Arial, Helvetica, sans-serif">
     “I’m not aware of a paper with
   </text>
   <text x="740" y="210"
         font-size="14"
-        fill="#e5e7eb"
+        fill="#0f172a"
         font-family="Arial, Helvetica, sans-serif">
     that title. It may not exist or
   </text>
   <text x="740" y="230"
         font-size="14"
-        fill="#e5e7eb"
+        fill="#0f172a"
         font-family="Arial, Helvetica, sans-serif">
     there isn’t enough information
   </text>
   <text x="740" y="250"
         font-size="14"
-        fill="#e5e7eb"
+        fill="#0f172a"
         font-family="Arial, Helvetica, sans-serif">
     to verify it.”
   </text>
 
   <text x="740" y="300"
         font-size="13"
-        fill="#4ade80"
+        fill="#16a34a"
         font-family="Arial, Helvetica, sans-serif">
     ✓ Proper refusal
   </text>
   <text x="740" y="320"
         font-size="13"
-        fill="#4ade80"
+        fill="#16a34a"
         font-family="Arial, Helvetica, sans-serif">
     ✓ Epistemic humility
   </text>
 
   <!-- Center Divider -->
   <line x1="600" y1="120" x2="600" y2="420"
-        stroke="#64748b"
+        stroke="#94a3b8"
         stroke-dasharray="6,6"
         stroke-width="2"/>
 
   <text x="600" y="450"
         text-anchor="middle"
         font-size="14"
-        fill="#cbd5f5"
+        fill="#334155"
         font-family="Arial, Helvetica, sans-serif">
     HullucinateEB rewards correctness of behavior, not verbosity or confidence
   </text>
