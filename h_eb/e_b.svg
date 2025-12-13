@@ -1,0 +1,183 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1200" height="520" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="600" y="45"
+        text-anchor="middle"
+        font-size="28"
+        fill="#0f172a"
+        font-family="Arial, Helvetica, sans-serif">
+    Epistemic Behavior Overview
+  </text>
+
+  <text x="600" y="75"
+        text-anchor="middle"
+        font-size="14"
+        fill="#475569"
+        font-family="Arial, Helvetica, sans-serif">
+    HullucinateEB evaluates how models act under uncertainty, not just what they answer
+  </text>
+
+  <!-- Center Node -->
+  <rect x="470" y="200" rx="18" ry="18"
+        width="260" height="90"
+        fill="#f8fafc"
+        stroke="#0f172a"
+        stroke-width="2"/>
+
+  <text x="600" y="235"
+        text-anchor="middle"
+        font-size="18"
+        fill="#0f172a"
+        font-family="Arial, Helvetica, sans-serif">
+    Model Response
+  </text>
+
+  <text x="600" y="260"
+        text-anchor="middle"
+        font-size="13"
+        fill="#334155"
+        font-family="Arial, Helvetica, sans-serif">
+    Given prompt + context
+  </text>
+
+  <!-- Answer -->
+  <rect x="120" y="120" rx="14" ry="14"
+        width="240" height="80"
+        fill="#ecfeff"
+        stroke="#0284c7"
+        stroke-width="2"/>
+
+  <text x="240" y="155"
+        text-anchor="middle"
+        font-size="16"
+        fill="#075985"
+        font-family="Arial, Helvetica, sans-serif">
+    Answer
+  </text>
+
+  <text x="240" y="175"
+        text-anchor="middle"
+        font-size="12"
+        fill="#0369a1"
+        font-family="Arial, Helvetica, sans-serif">
+    When information is known-true
+  </text>
+
+  <!-- Refuse -->
+  <rect x="120" y="320" rx="14" ry="14"
+        width="240" height="80"
+        fill="#f0fdf4"
+        stroke="#16a34a"
+        stroke-width="2"/>
+
+  <text x="240" y="355"
+        text-anchor="middle"
+        font-size="16"
+        fill="#166534"
+        font-family="Arial, Helvetica, sans-serif">
+    Refuse
+  </text>
+
+  <text x="240" y="375"
+        text-anchor="middle"
+        font-size="12"
+        fill="#15803d"
+        font-family="Arial, Helvetica, sans-serif">
+    Unknown or non-existent
+  </text>
+
+  <!-- Ask Clarification -->
+  <rect x="820" y="120" rx="14" ry="14"
+        width="240" height="80"
+        fill="#fff7ed"
+        stroke="#ea580c"
+        stroke-width="2"/>
+
+  <text x="940" y="155"
+        text-anchor="middle"
+        font-size="16"
+        fill="#9a3412"
+        font-family="Arial, Helvetica, sans-serif">
+    Ask Clarification
+  </text>
+
+  <text x="940" y="175"
+        text-anchor="middle"
+        font-size="12"
+        fill="#c2410c"
+        font-family="Arial, Helvetica, sans-serif">
+    Missing context or variables
+  </text>
+
+  <!-- Refute -->
+  <rect x="820" y="320" rx="14" ry="14"
+        width="240" height="80"
+        fill="#fef2f2"
+        stroke="#dc2626"
+        stroke-width="2"/>
+
+  <text x="940" y="355"
+        text-anchor="middle"
+        font-size="16"
+        fill="#991b1b"
+        font-family="Arial, Helvetica, sans-serif">
+    Refute
+  </text>
+
+  <text x="940" y="375"
+        text-anchor="middle"
+        font-size="12"
+        fill="#b91c1c"
+        font-family="Arial, Helvetica, sans-serif">
+    False premise detected
+  </text>
+
+  <!-- Retract -->
+  <rect x="470" y="380" rx="14" ry="14"
+        width="260" height="80"
+        fill="#f5f3ff"
+        stroke="#7c3aed"
+        stroke-width="2"/>
+
+  <text x="600" y="415"
+        text-anchor="middle"
+        font-size="16"
+        fill="#5b21b6"
+        font-family="Arial, Helvetica, sans-serif">
+    Retract
+  </text>
+
+  <text x="600" y="435"
+        text-anchor="middle"
+        font-size="12"
+        fill="#6d28d9"
+        font-family="Arial, Helvetica, sans-serif">
+    Correct earlier incorrect answer
+  </text>
+
+  <!-- Connecting Lines -->
+  <line x1="470" y1="220" x2="360" y2="180"
+        stroke="#94a3b8" stroke-width="2"/>
+  <line x1="470" y1="260" x2="360" y2="360"
+        stroke="#94a3b8" stroke-width="2"/>
+  <line x1="730" y1="220" x2="820" y2="180"
+        stroke="#94a3b8" stroke-width="2"/>
+  <line x1="730" y1="260" x2="820" y2="360"
+        stroke="#94a3b8" stroke-width="2"/>
+  <line x1="600" y1="290" x2="600" y2="380"
+        stroke="#94a3b8" stroke-width="2"/>
+
+  <!-- Footer -->
+  <text x="600" y="495"
+        text-anchor="middle"
+        font-size="14"
+        fill="#334155"
+        font-family="Arial, Helvetica, sans-serif">
+    Hallucination occurs when the model answers outside these epistemically valid behaviors
+  </text>
+
+</svg>
